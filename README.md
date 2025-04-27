@@ -129,6 +129,11 @@ check() {
 
 Endpoint that DigitalOcean uses to verify your app is running.
 
+### Execute in local machine
+1. Install Docker and PostgresDB
+2. Use ```bash docker componse up ``` to connect with DB 
+3. Execute the command ```npm run start:dev```
+
 ### Deploy to DigitalOcean App Platform
 
 1. Log in to DigitalOcean
